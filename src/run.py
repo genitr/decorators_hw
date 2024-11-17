@@ -3,6 +3,7 @@
 import os
 
 from src.logging.logger import logger1, logger2
+from generator.flat_generator import flat_generator
 
 
 def test_1():
@@ -83,7 +84,17 @@ def test_2():
         for item in (4.3, 2.2, 6.5):
             assert str(item) in log_file_content, f'{item} должен быть записан в файл'
 
+def test_3():
+    @logger1
+    def log_generator(list_):
+        new_list = []
+        for i in flat_generator(list_):
+            new_list.append(i)
+        return new_list
+
+    log_generator([[45, 90, 'python'], ['g', 'i', 't'],[1, 2, 3]])
 
 if __name__ == '__main__':
     test_1()
     test_2()
+    test_3()

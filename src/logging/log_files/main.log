@@ -1,5 +1,6 @@
-Date: 18.11.24, Time: 00:42, Function: hello_world, args: (), kwargs: {}, Result: Hello World
-Date: 18.11.24, Time: 00:42, Function: summator, args: (2, 2), kwargs: {}, Result: 4
-Date: 18.11.24, Time: 00:42, Function: div, args: (6, 2), kwargs: {}, Result: 3.0
-Date: 18.11.24, Time: 00:42, Function: summator, args: (4.3,), kwargs: {'b': 2.2}, Result: 6.5
-Date: 18.11.24, Time: 00:42, Function: summator, args: (), kwargs: {'a': 0, 'b': 0}, Result: 0
+Date: 18.11.24, Time: 01:15, Function: hello_world, args: (), kwargs: {}, Result: Hello World
+Date: 18.11.24, Time: 01:15, Function: summator, args: (2, 2), kwargs: {}, Result: 4
+Date: 18.11.24, Time: 01:15, Function: div, args: (6, 2), kwargs: {}, Result: 3.0
+Date: 18.11.24, Time: 01:15, Function: summator, args: (4.3,), kwargs: {'b': 2.2}, Result: 6.5
+Date: 18.11.24, Time: 01:15, Function: summator, args: (), kwargs: {'a': 0, 'b': 0}, Result: 0
+Date: 18.11.24, Time: 01:15, Function: log_generator, args: ([[45, 90, 'python'], ['g', 'i', 't'], [1, 2, 3]],), kwargs: {}, Result: [45, 90, 'python', 'g', 'i', 't', 1, 2, 3]
