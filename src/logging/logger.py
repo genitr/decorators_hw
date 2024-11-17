@@ -32,7 +32,7 @@ def logger1(old_function):
             log_info = (
                 f'Date: {date}, Time: {time}, Function: {old_function.__name__}, '
                 f'args: {args}, kwargs: {kwargs}, Result: {result}')
-            write_log_to_file('main.log', log_info)
+            write_log_to_file('logging/log_files/main.log', log_info)
             return result
         except Exception as e:
             print(f"Ошибка в функции {old_function.__name__}: {e}")

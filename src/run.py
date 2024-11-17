@@ -6,7 +6,7 @@ from src.logging.logger import logger1, logger2
 
 
 def test_1():
-    path = 'main.log'
+    path = 'logging/log_files/main.log'
     if os.path.exists(path):
         os.remove(path)
 
@@ -43,7 +43,9 @@ def test_1():
 
 
 def test_2():
-    paths = ('log_1.log', 'log_2.log', 'log_3.log')
+    paths = ('logging/log_files/log_1.log',
+             'logging/log_files/log_2.log',
+             'logging/log_files/log_3.log')
 
     for path in paths:
         if os.path.exists(path):

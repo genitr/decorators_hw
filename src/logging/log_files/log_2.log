@@ -1,0 +1,4 @@
+Date: 18.11.24, Time: 00:42, Function: hello_world, args: (), kwargs: {}, Result: Hello World
+Date: 18.11.24, Time: 00:42, Function: summator, args: (2, 2), kwargs: {}, Result: 4
+Date: 18.11.24, Time: 00:42, Function: div, args: (6, 2), kwargs: {}, Result: 3.0
+Date: 18.11.24, Time: 00:42, Function: summator, args: (4.3,), kwargs: {'b': 2.2}, Result: 6.5
